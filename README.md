@@ -25,3 +25,13 @@ The first thing I noticed was that teams displayed more variability in the use o
 Interestingly, he used to be the assistant to 76ers coach Brett Brown who sits on the other end of the spectrum. In the same interview he mentions that he never challenged his previous boss about all the voluntary stoppages. "The biggest thing, I thought," he said, "was that it ate into my dinner time." I feel you Mike.
 
 We all know the very end of close games can be quite painful thanks to TO calls, but I wondered how they are used during the rest of the game.
+
+<div>
+    <a href="https://plotly.com/~Zaca/41/?share_key=uYvfNc087aOYW8J7w1Ue6l" target="_blank" title="TimeoutsOverTime2" style="display: block; text-align: center;"><img src="https://plotly.com/~Zaca/41.png?share_key=uYvfNc087aOYW8J7w1Ue6l" alt="TimeoutsOverTime2" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="Zaca:41" sharekey-plotly="uYvfNc087aOYW8J7w1Ue6l" src="https://plotly.com/embed.js" async></script>
+</div>
+
+
+
+
+
