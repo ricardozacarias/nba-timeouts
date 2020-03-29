@@ -2,7 +2,7 @@
 
 ###### by Ricardo Zacarias
 
-*For fully interactive version of this story go [here](https://ricardozsilva.wixsite.com/take-that-for-data).*
+*For fully interactive version of this story go [here](https://ricardozacarias.github.io/nba-timeouts/).*
 
 
 
@@ -49,3 +49,22 @@ The high frequency of TOs at this time is most likely caused by coaches not want
 
 This suggests that not all timeouts are the same. Next, I wondered about the current state of the match when coaches decide to intervene, so I looked at the distribution of score differentials at timeout events. 
 
+<div>
+    <a href="https://plotly.com/~Zaca/51/?share_key=f5Q2bj0MxOIM4SzXAiy2VC" target="_blank" title="ScoreMarginAtTimeouts2" style="display: block; text-align: center;"><img src="https://plotly.com/~Zaca/51.png?share_key=f5Q2bj0MxOIM4SzXAiy2VC" alt="ScoreMarginAtTimeouts2" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="Zaca:51" sharekey-plotly="f5Q2bj0MxOIM4SzXAiy2VC" src="https://plotly.com/embed.js" async></script>
+</div>
+
+It is slightly shifted from 0 to the negative side. The red bar shows us the median (-2) and means that half of the timeouts were asked when the squad was losing by more than 2 points.
+
+Teams ask for timeouts not only when they're losing, but also when they're *losing advantage*. For example, if your lead of +20 points is cut to +10 you might wanna ask for a timeout. If you do your team is still at a +10 and that proximal cause for a TO is lost in this graph.
+
+To look into that, we need to track event games in a smaller window in the vicinity of a timeout call. 
+
+Below we see the average score margin in a 90 second window before and after timeouts for each team. At the time of the timeout (x=0), I normalized the score to be 0-0 and then calculated the average change in score. You can see the pattern for your favorite team/coach using the dropdown menu. 
+
+<div>
+    <a href="https://plotly.com/~Zaca/49/?share_key=5E25ytnjUlxMZOqnPc9zRV" target="_blank" title="TeamTimeSeriesFULL2" style="display: block; text-align: center;"><img src="https://plotly.com/~Zaca/49.png?share_key=5E25ytnjUlxMZOqnPc9zRV" alt="TeamTimeSeriesFULL2" style="max-width: 100%;width: 650px;"  width="650" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="Zaca:49" sharekey-plotly="5E25ytnjUlxMZOqnPc9zRV" src="https://plotly.com/embed.js" async></script>
+</div>
+
+Stopping negative momentum can take the form of addressing defensive/offensive concerns, strategic concerns, and psychological/emotional concerns. Although stop-the-bleeding timeouts are common in basketball, timeouts are still called for other reasons unrelated to momentum; maintaining possession, making substitutions, dealing with injury, or changing the positioning of the ball on the floor for late-game situations.
