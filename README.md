@@ -35,3 +35,17 @@ We all know the very end of close games can be quite painful thanks to TO calls,
     <a href="https://plotly.com/~Zaca/41/?share_key=uYvfNc087aOYW8J7w1Ue6l" target="_blank" title="TimeoutsOverTime2" style="display: block; text-align: center;"><img src="https://plotly.com/~Zaca/41.png?share_key=uYvfNc087aOYW8J7w1Ue6l" alt="TimeoutsOverTime2" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
     <script data-plotly="Zaca:41" sharekey-plotly="uYvfNc087aOYW8J7w1Ue6l" src="https://plotly.com/embed.js" async></script>
 </div>
+The pattern of timeout calling is similar for the first three quarters, but as we all know, everything changes in the fourth. You'll notice that both peaks occur at the same time in the first 3 periods, when there's 6:45 and 2:45 left in the quarter. I had no idea about this, but these times match mandatory TV timeouts defined by the league. From the official NBA rulebook:
+
+> *"There must be two mandatory timeouts in each period.* *If neither team has taken a timeout prior to 6:59 of the period, it shall be mandatory for the Official Scorer to take it at the first dead ball and charge it to the **home team**. If no subsequent timeouts are taken prior to 2:59, it shall be mandatory for the Official Scorer to take it and charge it **to the team not previously charged**."*
+
+If this is true then the first peak in each quarter should be dominated by the home team calling timeout and the second peak by the visiting team. I separated the blue trace by the team making the call (red - home, orange - away) and you can click on the legend line to activate or deactivate traces.
+
+The 4th quarter is a special case. There are still two peaks, but quite different from the others. The first real bump occurs at 3:15, **before** the 2:59 threshold for a TV break meaning these are not mandatory timeouts. If you keep reading the rule book:
+
+> *"Each team will be limited to two team timeouts after the three-minute mark of the fourth period".*
+
+The high frequency of TOs at this time is most likely caused by coaches not wanting to waste them by going into the end of the game with more than 2 left. And naturally, the very end of the game is timeout galore.
+
+This suggests that not all timeouts are the same. Next, I wondered about the current state of the match when coaches decide to intervene, so I looked at the distribution of score differentials at timeout events. 
+
