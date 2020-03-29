@@ -1,6 +1,10 @@
 # Calling timeouts in the NBA
 
-###### by ricardo zacarias
+###### by Ricardo Zacarias
+
+*For fully interactive version of this story go [here](https://ricardozsilva.wixsite.com/take-that-for-data).*
+
+
 
 As I get up to snack after watching another delicious fried chicken ad, I started wondering about how much of my life was being wasted by timeouts in NBA games. 
 
@@ -14,9 +18,10 @@ I found **13,437** total timeouts during the 2018-19 regular season.
 
 Below you can see on hover how much time your favorite team has cost you in timeouts (if you watched all 82 games, of course).
 
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~Zaca/45.embed"></iframe>
-
-
+<div>
+    <a href="https://plotly.com/~Zaca/45/?share_key=TsTShGlZ4ozuXYbdpmGr5v" target="_blank" title="TimeoutsPerTeam3" style="display: block; text-align: center;"><img src="https://plotly.com/~Zaca/45.png?share_key=TsTShGlZ4ozuXYbdpmGr5v" alt="TimeoutsPerTeam3" style="max-width: 100%;width: 850px;"  width="850" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="Zaca:45" sharekey-plotly="TsTShGlZ4ozuXYbdpmGr5v" src="https://plotly.com/embed.js" async></script>
+</div>
 
 The first thing I noticed was that teams displayed more variability in the use of timeouts than I had anticipated. Rockets fans profit most from Mike D'Antoni's notorious reluctance in stopping the game:
 
@@ -30,8 +35,3 @@ We all know the very end of close games can be quite painful thanks to TO calls,
     <a href="https://plotly.com/~Zaca/41/?share_key=uYvfNc087aOYW8J7w1Ue6l" target="_blank" title="TimeoutsOverTime2" style="display: block; text-align: center;"><img src="https://plotly.com/~Zaca/41.png?share_key=uYvfNc087aOYW8J7w1Ue6l" alt="TimeoutsOverTime2" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
     <script data-plotly="Zaca:41" sharekey-plotly="uYvfNc087aOYW8J7w1Ue6l" src="https://plotly.com/embed.js" async></script>
 </div>
-
-
-
-
-
